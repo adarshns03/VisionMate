@@ -22,7 +22,7 @@ def speak(text):
 
 
 # Constants and API setup
-PAT = '05dd939949874725aa406af215c3b9ac'
+PAT = ' .. '
 USER_ID = 'clarifai'
 APP_ID = 'main'
 MODEL_ID = 'celebrity-face-recognition'
@@ -312,5 +312,6 @@ while True:
 
     elif key == ord('q'):  # Quit
         break
+
 
 cv2.destroyAllWindows()
